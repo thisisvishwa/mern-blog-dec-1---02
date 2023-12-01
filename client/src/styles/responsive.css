@@ -1,0 +1,31 @@
+/* Responsive CSS for MERN Blog with Admin Panel */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    /* Your styles here */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    /* Your styles here */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    /* Your styles here */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    /* Your styles here */
+}
+
+/* Specific styles for touch-enabled devices */
+@media (hover: none) and (pointer: coarse) {
+    /* Your styles here */
+}
+
+/* Specific styles for ultra-wide displays */
+@media (min-width: 1920px) {
+    /* Your styles here */
+}
