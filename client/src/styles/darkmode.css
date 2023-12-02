@@ -1,0 +1,64 @@
+/* Dark Mode Styles */
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+.dark-mode .post-list,
+.dark-mode .comment-list,
+.dark-mode .category-list,
+.dark-mode .tag-list {
+    background-color: #2a2a2a;
+}
+
+.dark-mode .editor,
+.dark-mode .dashboard,
+.dark-mode .user-management,
+.dark-mode .content-management,
+.dark-mode .analytics,
+.dark-mode .theme,
+.dark-mode .layout,
+.dark-mode .authentication,
+.dark-mode .authorization,
+.dark-mode .profile,
+.dark-mode .settings {
+    background-color: #333;
+    border-color: #444;
+}
+
+.dark-mode a {
+    color: #1e90ff;
+}
+
+.dark-mode .post-list a,
+.dark-mode .comment-list a,
+.dark-mode .category-list a,
+.dark-mode .tag-list a {
+    color: #add8e6;
+}
+
+.dark-mode button {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+.dark-mode .navbar,
+.dark-mode .footer {
+    background-color: #2a2a2a;
+    border-color: #444;
+}
+
+.dark-mode .navbar a,
+.dark-mode .footer a {
+    color: #add8e6;
+}

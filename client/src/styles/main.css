@@ -1,0 +1,61 @@
+/* Main CSS Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#post-list, #comment-list, #category-list, #tag-list {
+    list-style: none;
+    padding: 0;
+}
+
+.post, .comment, .category, .tag {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.post h2, .comment h2, .category h2, .tag h2 {
+    margin-bottom: 10px;
+}
+
+.post p, .comment p, .category p, .tag p {
+    margin-bottom: 10px;
+}
+
+#editor {
+    height: 300px;
+}
+
+#dashboard, #user-management, #content-management, #analytics, #theme, #layout, #authentication, #authorization, #profile, #settings {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #444;
+}
